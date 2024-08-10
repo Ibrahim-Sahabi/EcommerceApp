@@ -8,7 +8,7 @@ pileline {
     stages {
         stage ('Git clone') {
             steps {
-                git branch: 'master', url: 'https://github.com/Ibrahim-Sahabi/EcommerceApp.git'
+                git 'https://github.com/Ibrahim-Sahabi/EcommerceApp.git'
             }
             
         }
